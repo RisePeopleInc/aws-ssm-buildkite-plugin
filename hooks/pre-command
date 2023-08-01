@@ -16,7 +16,7 @@ main() {
             --name "$parameter_key" \
             --with-decryption \
             --output text \
-            --region "$region"
+            --region "$region" \
             --query Parameter.Value
         )
 
